@@ -1,0 +1,39 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Classes (KEYWORD1)
+#######################################
+
+Wia_AHT20 KEYWORD1
+    AHT20 KEYWORD1
+
+Wia_DS18B20 KEYWORD1
+    DS18B20 KEYWORD1
+
+Wia_KY013 KEYWORD1
+    KY013 KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init KEYWORD2
+
+getTempC KEYWORD2
+getHumidity KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+WIA_TEMP_SENS_DS18B20 LITERAL1
+WIA_TEMP_SENS_AHT20   LITERAL1
+WIA_TEMP_SENS_KY013   LITERAL1
+
+WIA_MAX_TEMP_SENS LITERAL1
