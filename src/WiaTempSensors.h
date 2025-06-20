@@ -59,7 +59,7 @@
         @param temp: temperature value to convert
         @param isFahrenheit: Set to true if 'temp' is in Kelvin, false if in Celsius. 
       */
-      static float toFahrenheit(float temp, bool isKelvin); { return ((isKelvin ? (temp - 273.15) : temp) * 9/5) + 32; } 
+      static float toFahrenheit(float temp, bool isKelvin) { return ((isKelvin ? (temp - 273.15) : temp) * 9/5) + 32; } 
   }; 
 
 

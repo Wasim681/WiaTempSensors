@@ -1,7 +1,7 @@
 #define WIA_TEMP_SENS_DS18B20
 #include <WiaTempSensors.h>
 
-Wia_DS18B20 sensor;
+Wia_DS18B20 sensor(14);
 
 void setup() {
   Serial.begin(115200);
