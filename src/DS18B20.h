@@ -5,14 +5,14 @@
     #define TEMPERATURE_PRECISION 10
   #endif
   
-  #ifndef WIA_MAX_TEMP_SENS
-    #define WIA_MAX_TEMP_SENS 1
+  #ifndef WIA_EXTRA_MAX_TEMP_SENS
+    #define WIA_EXTRA_MAX_TEMP_SENS 1
   #endif
 
   #include <OneWire.h>
   #define REQUIRESNEW  true   // Use if you want to minimise code size
   #include <DallasTemperature.h>
-  const int max_sensor =  1 + WIA_MAX_TEMP_SENS;
+  const int max_sensor =  1 + WIA_EXTRA_MAX_TEMP_SENS;
 
   class TempSensorDS18B20{
     public: 
